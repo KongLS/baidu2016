@@ -1,0 +1,60 @@
+*{
+    margin:0;padding:0;list-style-type: none;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background:#fff;
+    font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+.containter{
+	margin:20px;
+	padding:20px;
+	background: #eee;
+	border:#999 1px solid;
+	overflow: hidden;
+	min-width: 500px;
+}
+.containter img {
+	width: 80px;
+	height: 80px;
+}
+.containter div{
+	background: #fff;
+	border:1px solid #999;
+}
+.main{
+	margin-left: 220px;
+	margin-right: 140px;
+	padding:20px;
+}
+.main p{
+	margin-bottom: 10px;
+}
+.left{
+	width: 160px;
+	float: left;
+	padding:20px;
+}
+.left img{
+	float: left;
+}
+.left span{
+	text-align: center;
+	margin-left: 90px;
+	font-weight: bold;
+	display: inherit;
+}
+.right{
+	width: 80px;
+	float: right;
+	padding:20px;
+}
+.right img{
+	margin-bottom: 20px;
+}
+.right img:last-child{
+	margin-bottom: 0;
+}
